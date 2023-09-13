@@ -14,7 +14,7 @@ except:
 if apiToken == 'CHANGEME':
     print('API token needed in the config.json file!')
     time.sleep(5 * 60)
-    exit
+    exit()
 
 def get_random_recipe(apiToken,baseURL):
     params = {
